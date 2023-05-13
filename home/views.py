@@ -4,7 +4,6 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Mi chiquita")
-from django.shortcuts import render
+    return render(request, "home/index.html")
 
 # Create your views here.
